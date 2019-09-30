@@ -31,8 +31,9 @@ const Summary = () => {
       <h1>UAT Microapp</h1>
       <p>This is the "UAT" microapp.</p>
       <section className="section">
-        <input type="text" placeholder="Input Test"></input>
         <Tests microapp={microapp.current} panel="summary" />
+        <label for="test-input">Test Input</label>
+        <input type="text" placeholder="Input Test" name="test-input" />
       </section>
       <div className="action-block vertical">
         <button className="primary" onClick={() => showDetail('tests')}>

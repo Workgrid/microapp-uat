@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/microapp-uat/static/css/main.495ab153.chunk.css",
-    "main.js": "/microapp-uat/static/js/main.fa6d55b4.chunk.js",
-    "main.js.map": "/microapp-uat/static/js/main.fa6d55b4.chunk.js.map",
+    "main.js": "/microapp-uat/static/js/main.6b8361fc.chunk.js",
+    "main.js.map": "/microapp-uat/static/js/main.6b8361fc.chunk.js.map",
     "runtime~main.js": "/microapp-uat/static/js/runtime~main.29c5c20a.js",
     "runtime~main.js.map": "/microapp-uat/static/js/runtime~main.29c5c20a.js.map",
     "static/js/2.a963777d.chunk.js": "/microapp-uat/static/js/2.a963777d.chunk.js",
     "static/js/2.a963777d.chunk.js.map": "/microapp-uat/static/js/2.a963777d.chunk.js.map",
     "index.html": "/microapp-uat/index.html",
-    "precache-manifest.d1152398f221c75c1ccde40ab443435b.js": "/microapp-uat/precache-manifest.d1152398f221c75c1ccde40ab443435b.js",
+    "precache-manifest.98cf66ce2146c2f382ae3eb277635a90.js": "/microapp-uat/precache-manifest.98cf66ce2146c2f382ae3eb277635a90.js",
     "service-worker.js": "/microapp-uat/service-worker.js",
     "static/css/main.495ab153.chunk.css.map": "/microapp-uat/static/css/main.495ab153.chunk.css.map"
   }
