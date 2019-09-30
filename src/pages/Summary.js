@@ -36,8 +36,11 @@ const Summary = () => {
         <input type="text" placeholder="Input Test" name="test-input" />
       </section>
       <div className="action-block vertical">
-        <button className="primary" onClick={() => showDetail('tests')}>
+        <button className="secondary" onClick={() => showDetail('tests')}>
           Detail Tests
+        </button>
+        <button className="primary" onClick={() => showDetail('iframe')}>
+          iFrame Tests
         </button>
       </div>
     </div>
