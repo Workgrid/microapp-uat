@@ -1,0 +1,42 @@
+.container {
+  margin: auto;
+  width: 100%;
+}
+
+.example-block {
+  margin: 0 15px;
+}
+
+.feature-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.feature-block > *:first-child {
+  flex: 1;
+}
+
+.geo-visual {
+  overflow: scroll;
+  padding: 15px 0;
+  background-color: #f9f9f9;
+}
+
+.mic-visual {
+  width: calc(100% - 50px);
+}
+
+.feature-icon {
+  cursor: pointer;
+  font-size: 2em;
+}
+
+@media (min-width: 600px) {
+  .container {
+    width: 600px;
+  }
+  .action-block {
+    border-top: 0;
+  }
+}

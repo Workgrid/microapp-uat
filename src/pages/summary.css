@@ -1,0 +1,13 @@
+.checklist {
+  display: flex;
+  flex-direction: row;
+}
+
+.checklist .pass {
+  flex: 0 0 1.3em;
+}
+
+.checklist .item {
+  flex: 1;
+  line-height: 1.7em;
+}
