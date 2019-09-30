@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/microapp-edge-trials/static/css/main.495ab153.chunk.css",
-    "main.js": "/microapp-edge-trials/static/js/main.e36d1575.chunk.js",
-    "main.js.map": "/microapp-edge-trials/static/js/main.e36d1575.chunk.js.map",
-    "runtime~main.js": "/microapp-edge-trials/static/js/runtime~main.ca5d9c03.js",
-    "runtime~main.js.map": "/microapp-edge-trials/static/js/runtime~main.ca5d9c03.js.map",
-    "static/js/2.6486a6e3.chunk.js": "/microapp-edge-trials/static/js/2.6486a6e3.chunk.js",
-    "static/js/2.6486a6e3.chunk.js.map": "/microapp-edge-trials/static/js/2.6486a6e3.chunk.js.map",
-    "index.html": "/microapp-edge-trials/index.html",
-    "precache-manifest.70f601d8a528b6267ff48b435fdc2fee.js": "/microapp-edge-trials/precache-manifest.70f601d8a528b6267ff48b435fdc2fee.js",
-    "service-worker.js": "/microapp-edge-trials/service-worker.js",
-    "static/css/main.495ab153.chunk.css.map": "/microapp-edge-trials/static/css/main.495ab153.chunk.css.map"
+    "main.css": "/microapp-uat/static/css/main.495ab153.chunk.css",
+    "main.js": "/microapp-uat/static/js/main.e36d1575.chunk.js",
+    "main.js.map": "/microapp-uat/static/js/main.e36d1575.chunk.js.map",
+    "runtime~main.js": "/microapp-uat/static/js/runtime~main.29c5c20a.js",
+    "runtime~main.js.map": "/microapp-uat/static/js/runtime~main.29c5c20a.js.map",
+    "static/js/2.ba762041.chunk.js": "/microapp-uat/static/js/2.ba762041.chunk.js",
+    "static/js/2.ba762041.chunk.js.map": "/microapp-uat/static/js/2.ba762041.chunk.js.map",
+    "index.html": "/microapp-uat/index.html",
+    "precache-manifest.e26d6234ee19cd56b4de4e9ca3d5e044.js": "/microapp-uat/precache-manifest.e26d6234ee19cd56b4de4e9ca3d5e044.js",
+    "service-worker.js": "/microapp-uat/service-worker.js",
+    "static/css/main.495ab153.chunk.css.map": "/microapp-uat/static/css/main.495ab153.chunk.css.map"
   }
 }
