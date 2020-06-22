@@ -1,14 +1,12 @@
 ## Workgrid UAT MicroApp
 
-This is yet another MicroApp for the [Workgrid](https://www.workgrid.com) platform, this one is not something you would want to use for an example or starting spot. To see a better "starting example" MicroApp check out the [Kitchen Sink](https://github.com/Workgrid/microapp-kitchen-sink).
+This is yet another MicroApp for the [Workgrid](https://www.workgrid.com) platform.
 
-The goal of this MicroApp is to be a stable MicroApp for internal and external testing of features with Workgrid. This may vary slightly from the Kitchen Sink in the fact that it's a little less readable and less "nice looking".
-
-This app is simply in place to quickly test the features that
+This is a reasonable starting point and a good example of using most features of the Workgrid MicroApp SDK.
 
 **Support**
 
-If you have issues with this repo please submit an issue and I'll see what I can do. If you have Microapp specific questions please contact your Customer Success Director.
+If you have issues with this repo please submit an issue and I'll see what I can do. If you have MicroApp specific questions please contact your Customer Success Director.
 
 **Contributions**
 

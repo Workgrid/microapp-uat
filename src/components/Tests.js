@@ -1,21 +1,13 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { decode } from 'jsonwebtoken'
 
-const testTypes = [
-  { name: 'Token' },
-  { name: 'Title' },
-  { name: 'Show', inDetail: false },
-  { name: 'Hide', inSummary: false }
-]
+const testTypes = [{ name: 'Token' }, { name: 'Title' }, { name: 'Show', inDetail: false }, { name: 'Hide' }]
 
 export default ({ microapp, panel = 'summary' }) => {
   const [tests, setTests] = useState(
     testTypes.map(testType => ({ inSummary: true, inDetail: true, loading: false, result: false, ...testType }))
   )
   const testActions = useRef({})
-
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  useEffect(() => testToken(), [microapp])
 
   useEffect(() => {
     testActions.current.Token = testToken

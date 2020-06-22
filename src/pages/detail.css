@@ -4,7 +4,11 @@
 }
 
 .example-block {
-  margin: 0 15px;
+  margin: 0 1rem;
+}
+
+.example-block > a {
+  display: block;
 }
 
 .feature-block {
