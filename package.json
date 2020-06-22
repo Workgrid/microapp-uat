@@ -3,24 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@workgrid/micro-app": "^0.9.1",
-    "core-js-pure": "^3.1.4",
+    "@workgrid/micro-app": "^0.9.5",
     "jsonwebtoken": "^8.5.1",
-    "react": "16.8.6",
-    "react-dom": "16.8.6",
-    "react-mic": "^12.4.1",
-    "react-router-dom": "^5.0.1",
-    "react-scripts": "3.1.1"
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-mic": "^12.4.6",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "lint": "eslint '**/*.js' --ignore-path .gitignore --fix",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "rimraf docs && react-scripts build && mv build docs"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": [
     "last 2 chrome versions",
@@ -31,8 +28,12 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "copyfiles": "^2.1.1",
-    "rimraf": "^3.0.0"
+    "copyfiles": "^2.3.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5",
+    "react-app-polyfill": "^1.0.6",
+    "rimraf": "^3.0.2"
   },
   "homepage": "https://workgrid.github.io/microapp-uat/"
 }

@@ -4,7 +4,7 @@
 
 html,
 body {
-  color: #333;
+  color: #707070;
   margin: 0;
   padding: 0;
 }
@@ -18,17 +18,26 @@ body {
 
   background-color: #fff;
   background-repeat: no-repeat;
-  padding: 15px 0px;
+  padding: 15px 0;
   font-size: 16px;
 }
 
 h1 {
   text-align: center;
   margin: 0;
+  color: #1b1b1b;
+  font-size: 1.1rem;
 }
 
 p {
   margin: 5px 10px;
+  font-size: 0.95rem;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
 }
 
 code {
@@ -44,7 +53,7 @@ code {
   outline: 0;
   cursor: pointer;
   margin: 10px 10px;
-  color: grey;
+  color: #707070;
   background: white;
   border-radius: 2px;
   font-size: 16px;
@@ -88,6 +97,11 @@ input {
   margin: 5px 10px;
 }
 
+.section > strong {
+  display: block;
+  margin-top: 0.5rem;
+}
+
 .action-list {
   list-style: none;
   display: block;
@@ -129,5 +143,5 @@ input {
 
 .action-block.vertical button {
   margin-top: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }

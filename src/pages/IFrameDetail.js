@@ -10,16 +10,14 @@ const Detail = () => {
     })
   )
 
-  const [currentCount, setCurrentCount] = useState(5)
+  const [currentCount, setCurrentCount] = useState(3)
   const [iframeUrl, setIframeUrl] = useState('')
   const countdownTimer = useRef()
 
   useEffect(() => {
-    console.log('Initializing Detail')
     microapp.current.initialize()
     countdownTimer.current = setInterval(() => {
       setCurrentCount(prev => {
-        console.log(!!(prev % 2) ? 'Tick' : 'Tock')
         return prev - 1
       })
     }, 1000)

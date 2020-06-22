@@ -4,15 +4,9 @@ import './detail.css'
 import Tests from '../components/Tests'
 
 const Detail = () => {
-  const microapp = useRef(
-    new MicroApp({
-      id: 'edge-microapp',
-      audience: process.env.REACT_APP_AUD
-    })
-  )
+  const microapp = useRef(new MicroApp({}))
 
   useEffect(() => {
-    console.log('Initializing Detail')
     microapp.current.initialize()
   }, [])
 
@@ -21,6 +15,15 @@ const Detail = () => {
       <h1>Tests Detail</h1>
       <div className="example-block">
         <Tests microapp={microapp.current} panel="detail" />
+      </div>
+
+      <div className="example-block">
+        <a href="./test-internal.html">Internal Link</a>
+        <a href="https://www.bing.com?q=external" target="_blank" rel="noopener noreferrer">
+          External Link
+        </a>
+        <a href="tel:1-562-867-5309">Tel Link</a>
+        <a href="mailto:support@workgrid.com">Mailto Link</a>
       </div>
     </div>
   )
